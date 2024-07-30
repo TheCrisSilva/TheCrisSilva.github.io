@@ -12,7 +12,7 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
+Paginate: 10
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
@@ -29,11 +29,22 @@ Menus:
       title: Blog posts
       url: /blogs
       weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
+    - #identifier: gallery
+      #name: Gallery
+      #title: Blog posts
+      #url: /gallery
+      #weight: 2
+    - identifier: projects
+      name: Projects
+      title: project posts
+      url: /projects
       weight: 2
+    - identifier: publications
+      name: publication
+      title: publications posts
+      url: /publications
+      weight: 3
+
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu

@@ -1,0 +1,41 @@
+{{ define "main" }}
+<article>
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Params.description }}</p>
+    <div>{{ .Content }}</div>
+</article>
+
+<script>
+    var topScroll = document.getElementById("topScroll");
+    window.onscroll = function() {scrollFunction()};
+  
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        topScroll.style.display = "block";
+      } else {
+        topScroll.style.display = "none";
+      }
+    }
+  
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  
+    // To set height of sticky sidebar dynamically
+    let stickySideBarElem = document.getElementById("stickySideBar");
+    let stickyNavBar = {{ .Site.Params.navbar.stickyNavBar.enable | default false }};
+    if(stickyNavBar) {
+      let headerElem = document.getElementById("profileHeader");
+      let headerHeight = headerElem.offsetHeight + 15;
+      stickySideBarElem.style.top = headerHeight + "px";
+    } else {
+      stickySideBarElem.style.top = "50px";
+    }
+  </script>
+  
+  {{ if or (.Site.Params.singlePages.readTime.enable | default true) (.Params.enableReadingTime) }}
+  <script src="{{.Site.Params.staticPath}}/js/readingTime.js"></script>
+  {{end}}
+  
+{{ end }}
