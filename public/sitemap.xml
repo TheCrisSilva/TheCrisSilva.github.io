@@ -2,51 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blogs/</loc>
+    <loc>http://localhost:46153/blogs/</loc>
     <lastmod>2024-07-05T13:40:55+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/career-advice/</loc>
+    <loc>http://localhost:46153/tags/career-advice/</loc>
     <lastmod>2024-07-05T13:40:55+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:46153/</loc>
     <lastmod>2024-07-05T13:40:55+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/lessons-i-wish-i-knew/</loc>
+    <loc>http://localhost:46153/blogs/lessons-i-wish-i-knew/</loc>
     <lastmod>2024-07-05T13:40:55+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:46153/tags/</loc>
     <lastmod>2024-07-05T13:40:55+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/clarity-and-focus/</loc>
+    <loc>http://localhost:46153/blogs/clarity-and-focus/</loc>
     <lastmod>2024-07-05T02:10:35+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/how-to-read/</loc>
+    <loc>http://localhost:46153/blogs/how-to-read/</loc>
     <lastmod>2024-07-05T02:10:35+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/projects6/</loc>
+    <loc>http://localhost:46153/projects/projects6/</loc>
     <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>http://localhost:46153/projects/</loc>
     <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/projects5/</loc>
+    <loc>http://localhost:46153/projects/projects5/</loc>
     <lastmod>2023-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/project4/</loc>
+    <loc>http://localhost:46153/projects/project4/</loc>
     <lastmod>2022-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gallery/</loc>
+    <loc>http://localhost:46153/gallery/</loc>
     <lastmod>2022-06-25T18:35:46+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/project3/</loc>
+    <loc>http://localhost:46153/projects/project3/</loc>
     <lastmod>2022-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/project1/</loc>
+    <loc>http://localhost:46153/projects/project1/</loc>
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/project2/</loc>
+    <loc>http://localhost:46153/talks/</loc>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46153/talks/talk2/</loc>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46153/talks/talk1/</loc>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:46153/projects/project2/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:46153/categories/</loc>
   </url>
 </urlset>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on Cris Silva</title>
+    <link>http://localhost:46153/talks/</link>
+    <description>Recent content in Talks on Cris Silva</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:46153/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The importance of biotech ecosystem in Sri Lanka</title>
+      <link>http://localhost:46153/talks/talk2/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46153/talks/talk2/</guid>
+      <description>In this podcast we discussed the importance of developing an ecosystem for biotechnology innovaton to foster the bioeconomy innovation and startups in Sri Lanka.</description>
+    </item>
+    <item>
+      <title>Why we are building a scientific community in Sri Lanka</title>
+      <link>http://localhost:46153/talks/talk1/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46153/talks/talk1/</guid>
+      <description>In this podcast we discussed our work in Benzyme Ventures and why it is important!</description>
+    </item>
+  </channel>
+</rss>

@@ -39,16 +39,11 @@ Menus:
       title: project posts
       url: /projects
       weight: 2
-    - identifier: publications
-      name: Publication
-      title: publications posts
-      url: /publications
-      weight: 3
     - identifier: talks
       name: Talks
       title: talk posts
       url: /talks
-      weight: 4
+      weight: 3
 
     #Dropdown menu
     # - identifier: dropdown
@@ -288,6 +283,35 @@ params:
         #featuredLink:
          # enable: true
           #url: "https://example.com"
+
+  # Publications
+  publications:
+  enable: true
+  title: "Publications"
+  index: true
+  items:
+    - title: "A Comprehensive Review on Bioinformatics"
+      journal: "Journal of Bioinformatics"
+      year: "2023"
+      url: "https://journalofbioinformatics.com/review2023"
+      content: |-
+        This paper reviews recent advances in bioinformatics, focusing on new algorithms and computational methods.
+
+    - title: "Innovative Approaches to Genetic Engineering"
+      journal: "Genetics Today"
+      year: "2022"
+      url: "https://geneticstoday.org/innovative2022"
+      content: |-
+        This study explores innovative techniques in genetic engineering, including CRISPR technology and its applications.
+
+    - title: "Environmental Impact of Biotechnology"
+      journal: "Environmental Science & Technology"
+      year: "2021"
+      url: "https://environmentalscienceandtechnology.com/impact2021"
+      content: |-
+        This research assesses the environmental impacts of biotechnological processes, with a focus on sustainability and ecological balance.
+
+          
 
   # Achievements
   achievements:

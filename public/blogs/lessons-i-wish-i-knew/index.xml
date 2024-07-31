@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lessons I Wish I Knew when I was doing my bachelors on Cris Silva</title>
-    <link>http://localhost:1313/blogs/lessons-i-wish-i-knew/</link>
+    <link>http://localhost:46153/blogs/lessons-i-wish-i-knew/</link>
     <description>Recent content in Lessons I Wish I Knew when I was doing my bachelors on Cris Silva</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/blogs/lessons-i-wish-i-knew/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:46153/blogs/lessons-i-wish-i-knew/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
