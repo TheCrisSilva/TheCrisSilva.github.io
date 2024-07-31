@@ -23,8 +23,29 @@
     <loc>http://localhost:1313/blogs/how-to-read/</loc>
     <lastmod>2024-07-05T02:10:35+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/projects/projects6/</loc>
+    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/projects5/</loc>
+    <lastmod>2023-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/project4/</loc>
+    <lastmod>2022-07-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/gallery/</loc>
     <lastmod>2022-06-25T18:35:46+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/project3/</loc>
+    <lastmod>2022-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/project1/</loc>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/project2/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url>
