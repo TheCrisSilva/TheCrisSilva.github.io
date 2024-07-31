@@ -5,9 +5,18 @@ draft: false
 author: Cris Silva
 tags:
   - career advice
-image: /images/post.jpg
+image: /images/blog/lesson.jpg
 description:
 toc:
+links:
+  - icon: fab fa-github
+    url: "https://github.com/TheCrisSilva"
+  - icon: fab fa-instagram
+    url: "https://www.instagram.com/crisdiroma/"
+  - icon: fab fa-facebook
+    url: "https://www.facebook.com/crisdiroma"
+  - icon: fab fa-linkedin
+    url: "https://www.linkedin.com/in/cris-silva1996/"
 ---
 
 

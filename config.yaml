@@ -12,7 +12,7 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 10
+Paginate: 5
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
@@ -40,10 +40,15 @@ Menus:
       url: /projects
       weight: 2
     - identifier: publications
-      name: publication
+      name: Publication
       title: publications posts
       url: /publications
       weight: 3
+    - identifier: talks
+      name: Talks
+      title: talk posts
+      url: /talks
+      weight: 4
 
     #Dropdown menu
     # - identifier: dropdown
@@ -146,7 +151,7 @@ params:
     roundImage: true  # Make hero image circular | default false
     button:
       enable: true
-      name: "Resume"
+      name: "Explore"
       url: "#"
       download: true
       newPage: false

@@ -1,0 +1,41 @@
+{{ define "main" }}
+<section id="talks" class="py-5">
+    <div class="container">
+        <h3 class="text-center pb-4">{{ .Title | default "Talks" }}</h3>
+        <div class="row">
+            {{ range .Content | split "\n\n" }}
+            {{ $lines := . | split "\n" }}
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    {{ $image := "" }}
+                    {{ $title := "" }}
+                    {{ $date := "" }}
+                    {{ $description := "" }}
+                    {{ $url := "" }}
+
+                    {{ range $lines }}
+                    {{ if in . "Image:" }}{{ $image = after "Image: " . }}{{ end }}
+                    {{ if in . "Title:" }}{{ $title = after "Title: " . }}{{ end }}
+                    {{ if in . "Date:" }}{{ $date = after "Date: " . }}{{ end }}
+                    {{ if in . "Description:" }}{{ $description = after "Description: " . }}{{ end }}
+                    {{ if in . "URL:" }}{{ $url = after "URL: " . }}{{ end }}
+                    {{ end }}
+
+                    {{ if $image }}
+                    <img src="{{ $image }}" class="card-img-top" alt="{{ $title }}">
+                    {{ end }}
+                    <div class="card-body">
+                        <h5 class="card-title">{{ $title }}</h5>
+                        <small>{{ $date }}</small>
+                        <p class="card-text">{{ $description }}</p>
+                        {{ if $url }}
+                        <a href="{{ $url }}" class="btn btn-primary" target="_blank">Learn More</a>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
